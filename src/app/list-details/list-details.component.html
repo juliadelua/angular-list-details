@@ -1,7 +1,11 @@
-<h2>Item da Lista</h2>
-<a [routerLink]="['/list']">BACK</a>
-<h3>ID:</h3>
-<div>{{ item.id }}</div>
-
-<h3>Text:</h3>
-<div>{{ item.text }}</div>
+<a class="link" [routerLink]="['/list']"
+  ><span class="material-icons">arrow_back</span> voltar</a
+><br>
+<h3>Detalhes da Disciplina</h3>
+<br />
+<h5>"{{ item.text }}"</h5>
+<hr />
+<p><b>Código:</b> {{ item.id }}</p>
+<p><b>Horário:</b> {{ item.time }} ({{ item.day }})</p>
+<p><b>Ementa:</b> {{ item.ementa }}</p>
+<p><b>Objetivos:</b> {{ item.objetivos }}</p>

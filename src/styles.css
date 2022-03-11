@@ -1,1 +1,61 @@
 /* Add application styles & imports to this file! */
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(221, 169, 186);
+}
+a:hover {
+  color: rgb(219, 93, 114);
+}
+.link {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #101010;
+  color: white;
+  padding: 50px;
+}
+
+span {
+  margin-right: 5px;
+}
+
+b {
+  color: palevioletred;
+}
+
+th {
+  color: palevioletred;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  color: white;
+}
+
+table {
+  border-color: white;
+}
+
+tr {
+  color: grey;
+}
+
+hr {
+  color: pink;
+  opacity: 0.5;
+}
